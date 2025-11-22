@@ -2,9 +2,9 @@
 
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 2rem;
-  text-align: center;
+  text-align: right;
 }
 
 .logo {
@@ -41,4 +41,22 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Custom header background for exact UKM PCC blue */
+.header-bg {
+  background-color: #003366;
+}
+
+.App-header {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    padding: 0.5rem;
+  }
 }
