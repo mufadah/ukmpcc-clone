@@ -3,9 +3,12 @@
 #root {
   max-width: 1280px;
   /* margin: 0 auto; */
-  padding: 2rem;
-  text-align: right;
+  /* text-align: center; */
+  /* padding: 0 2rem 2rem 0; remove top padding so navbar touches the top */
+
 }
+
+
 
 .logo {
   height: 6em;
@@ -48,12 +51,6 @@
   background-color: #003366;
 }
 
-.App-header {
-  backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 1rem;
-}
 
 @media (max-width: 768px) {
   .App-header {
