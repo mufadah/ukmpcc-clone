@@ -7,16 +7,23 @@ export default function App() {
       style={{ backgroundImage: `url(${foto})` }}
     >
       {/* Overlay gelap opsional agar teks lebih jelas */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-[#063a8e]/40"></div>
 
       {/* Konten App */}
       <div className="relative z-10 pt-40 text-white">
-        <h1 className=" text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-right px-6 sm:px-12 md:px-20 lg:px-32">
+        <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-right px-6 sm:px-12 md:px-20 lg:px-32">
           POLYTECHNIC<br/> COMPUTER CLUB
         </h1>
-
-        {/* konten lain di sini */}
       </div>
+      <div>
+        <div className="relative z-10 mt-6 text-white px-6 sm:px-12 md:px-20 lg:px-32 text-right">
+          <p className="text-3xl sm:text-3xl md:text-4xl lg:text-6xl font-bold">
+            2025/2026
+          </p>
+          </div>
+      </div>
+        {/* konten lain di sini */}
+      
     </div>
   );
 }

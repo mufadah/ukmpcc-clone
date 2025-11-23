@@ -97,7 +97,7 @@ Contoh `App.jsx`:
 
     export default function Hero() {
       return (
-        <section className="h-[500px] flex flex-col items-center justify-center bg-gradient-to-br from-blue-600 to-purple-600 text-white">
+        <section className="h-[500px] flex flex-col items-center justify-center bg-linear-to-br from-blue-600 to-purple-600 text-white">
           <h2 className="text-4xl font-bold">Unit Kegiatan Mahasiswa PCC</h2>
           <p className="text-lg mt-4">Politeknik Negeri Semarang</p>
         </section>

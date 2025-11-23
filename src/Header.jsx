@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import logo from './assets/logopcc.png';
-import foto from './assets/fotbar.JPG';
 
 
 export default function Header() {
@@ -21,8 +20,7 @@ export default function Header() {
           Kalau mau full edge ubah menjadi fixed top-0 left-0 right-0 rounded-none */}
       <header className="fixed top-4 left-4 right-4 z-50">
         <div
-          className="mx-auto max-w-7xl rounded-2xl bg-black/40 backdrop-blur-md px-4 py-3 shadow-lg
-                     border border-white/10 flex items-center justify-between gap-4"
+          className="shadow-md fixed top-3 md:top-5 left-1/2 z-50 flex h-16 md:h-20 w-[95%] -translate-x-1/2 transform items-center justify-between bg-white/20 px-4 md:px-5 text-white backdrop-blur-md rounded-xl transition-all duration-300"
         >
           {/* Logo + Title */}
           <div className="flex items-center gap-3">
