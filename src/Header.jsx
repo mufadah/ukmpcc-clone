@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from './assets/logopcc.png';
+import logo from './assets/logopcc.webp';
 
 
 export default function Header() {

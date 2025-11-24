@@ -1,10 +1,10 @@
 import React from "react";
-import logo from './assets/logopcc.png';
+import logo from './assets/logopcc.webp';
 
 export default function Footer() {
   return (
     // Outer full-width background
-    <footer className="fixed bottom-0 left-0 right-0 w-full bg-[#052b50] text-white z-40">
+    <footer className="bottom-0 left-0 right-0 w-full bg-[#052b50] text-white z-40">
       <div className="max-w-7xl mx-auto px-6 py-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
           <div className="md:col-span-5 flex items-start space-x-4">
